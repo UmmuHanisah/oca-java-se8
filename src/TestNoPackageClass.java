@@ -1,3 +1,5 @@
+import com.oracle.javacert.Schedule;
+
 
 /**
  * @author Ummu Hanisah
@@ -10,4 +12,6 @@ public class TestNoPackageClass {
 	
 	NoPackageClass noPackageClass;
 
+	// Testing class in default package accessing class in a named package
+	Schedule schedule = new Schedule();
 }

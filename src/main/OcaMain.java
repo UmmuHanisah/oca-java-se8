@@ -8,7 +8,8 @@ import com.oracle.javacert.associate.ExamQuestion;
  * @date Apr 11, 2018
  * 
  * @project oca-java-se8
- * @chapter 
+ * @chapter 1.3.6 The import statement doesn’t import the whole package tree / pg 49
+ * 1.3.7 Importing classes from the default package / pg 50
  */
 public class OcaMain {
 
@@ -24,7 +25,13 @@ public class OcaMain {
 		 * the import statement.	(Page 49)
 		 */
 		ExamQuestion examQuestion = new ExamQuestion();
-//		NoPackageClass 
+		
+		/*1.3.7 Importing classes from the default package*/
+		
+		/*Members of a named package can’t access classes and interfaces
+		defined in the default package.*/
+		// NoPackageClass 
+		
 
 	}
 }

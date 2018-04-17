@@ -8,5 +8,6 @@ package com.oracle.javacert.associate;
  * @chapter 1.3.6 The import statement doesn’t import the whole package tree / pg 49
  */
 public class ExamQuestion {
-
+	 /*TODO: Identify why only public, abstract and final modifier 
+	 are allow in the beginning of the class declaration?*/
 }
