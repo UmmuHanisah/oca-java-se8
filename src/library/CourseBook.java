@@ -15,5 +15,9 @@ public class CourseBook extends Book {
 		
 		int c = issueCount;
 		issueHistory();
+		
+		Book book = new Book();
+		book.author = "Ummu";
+		book.modifyTemplate();
 	}
 }
