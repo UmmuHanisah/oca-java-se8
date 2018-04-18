@@ -14,7 +14,7 @@ import com.oracle.javacert.associate.ExamQuestion;
 public class OcaMain {
 
 	public static void main(String args[]) {
-		Schedule schedule = new Schedule();
+		//Schedule schedule = new Schedule();
 
 		/*
 		 * 1.3.6 The import statement doesn’t import the whole package tree / pg 49
@@ -24,7 +24,7 @@ public class OcaMain {
 		 * You can’t import classes from a subpackage by using an asterisk in
 		 * the import statement.	(Page 49)
 		 */
-		ExamQuestion examQuestion = new ExamQuestion();
+		//ExamQuestion examQuestion = new ExamQuestion();
 		
 		/*1.3.7 Importing classes from the default package*/
 		

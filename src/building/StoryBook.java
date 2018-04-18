@@ -11,12 +11,17 @@ import library.Book;
  */
 public class StoryBook extends Book {
 	
+	public static void main() {
+		new StoryBook();
+	}
+	
 	public StoryBook() {
 		
 		author = "ABC";
 		modifyTemplate();
 		
 		Book book = new Book();
+		// String v = book.author;
 		/*
 		 * Note
 		 * Protected members of class Book are not
