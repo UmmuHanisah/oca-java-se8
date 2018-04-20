@@ -17,6 +17,10 @@ public class House {
 		 We can't access protected member that coming from different package*/ 
 		//	book.author="ABC";
 		//	book.modifyTemplate();
+		// book.author; The field book.author is not visible --> it's a protected access modifier
+		
+		Curtain curtain = new Curtain();
+		curtain.name = "Hanisah";
 	}
 
 }

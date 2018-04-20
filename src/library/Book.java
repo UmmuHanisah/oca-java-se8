@@ -9,6 +9,11 @@ package library;
  */
 public class Book {
 	
+//	String author;
+//	
+//	void modifyTemplate() {
+//	}
+	
 	protected String author;
 	
 	protected void modifyTemplate() {
