@@ -1,5 +1,7 @@
 package main;
 
+import twistinthetalechapter1.sub1_4.CurtainMain;
+
 import com.oracle.javacert.Schedule;
 import com.oracle.javacert.associate.ExamQuestion;
 
@@ -32,6 +34,7 @@ public class OcaMain {
 		defined in the default package.*/
 		// NoPackageClass 
 		
-
+		CurtainMain curtainMain = new CurtainMain();
+		curtainMain.testAccessModifierMethod();
 	}
 }
